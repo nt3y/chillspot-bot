@@ -18,7 +18,7 @@ function loadConfig() {
     nickname_color: [255, 255, 255],
     nickname_outline_color: [0, 0, 0],
     nickname_outline_width: 0,
-    question_y: 450,
+    question_y: 500,
     question_font_size: 47,
     question_color: [210, 223, 248],
     question_outline_color: [0, 0, 0],
