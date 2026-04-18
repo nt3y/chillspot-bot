@@ -13,7 +13,7 @@ function loadConfig() {
     circle_radius: 124,
     circle_center_x: 637,
     circle_center_y: 153,
-    nickname_offset_y: 20,
+    nickname_offset_y: 40,
     nickname_font_size: 40,
     nickname_color: [255, 255, 255],
     nickname_outline_color: [0, 0, 0],
