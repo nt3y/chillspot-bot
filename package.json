@@ -7,9 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "arabic-reshaper": "^1.1.0",
-    "canvas": "^2.11.2",
-    "discord.js": "^14.26.3",
+    "discord.js": "^14.16.3",
+    "@napi-rs/canvas": "^0.1.68",
     "node-fetch": "^2.7.0"
   }
 }

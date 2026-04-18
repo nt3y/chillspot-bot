@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits, AttachmentBuilder } = require('discord.js');
-const { createCanvas, loadImage, registerFont } = require('canvas');
+const { createCanvas, loadImage, GlobalFonts } = require('@napi-rs/canvas');
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
@@ -44,7 +44,7 @@ const CONFIG = loadConfig();
 
 // Register fonts
 try {
-  registerFont(path.resolve(CONFIG.font_path), { family: 'BotFont' });
+  GlobalFonts.registerFromPath(path.resolve(CONFIG.font_path), 'BotFont');
   console.log('✅ Font registered');
 } catch (e) {
   console.warn('⚠️  Could not register font:', e.message);
